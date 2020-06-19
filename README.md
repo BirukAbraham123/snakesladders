@@ -10,7 +10,7 @@ Snakes and Ladders, known originally as Moksha Patam, is an ancient Indian board
 2. Randomly there are ladders from one cell point to another cell point
 3. Randomly there are snakes from one cell point to another cell point
 4. For starters there are two players one is the computer and the other is the gamer
-5. At the start of the game both the gamer and the computer start at cell 00
+5. At the start of the game both the gamer and the computer start at cell 00 @ position 1 on the board
 6. Taking a turn the gamer or the computer start throwing a dies, if the dies face 6 the player who throw the dies will be given another chance to throw the dies
 7. With every throw the player will move up the cell by the given dies value
 8. If a player ends moved to a start of a ladder cell, the player will move up to the end of the ladder cell
