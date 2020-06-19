@@ -62,11 +62,11 @@ func (snakeladder *SnakesLadders) String() string {
 	p := snakeladder.board
 	snakesList := make([]string, len(snakeladder.snakes))
 	for shead, stail := range snakeladder.snakes {
-		snakesList = append(snakesList, fmt.Sprintf("snake tail : %d ---> head : %d", stail, shead))
+		snakesList = append(snakesList, fmt.Sprintf("snake tail : %d ---> head : %d", stail+1, shead+1))
 	}
 	laddersList := make([]string, len(snakeladder.ladders))
 	for lbottom, ltop := range snakeladder.ladders {
-		laddersList = append(laddersList, fmt.Sprintf("ladder bottom : %d ----> top : %d", lbottom, ltop))
+		laddersList = append(laddersList, fmt.Sprintf("ladder bottom : %d ----> top : %d", lbottom+1, ltop+1))
 	}
 	boardStr := "_________________________________________\n"
 	for i := 99; i >= 0; i = i - 10 {
